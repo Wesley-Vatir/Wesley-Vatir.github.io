@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: #020617;
+}
+
+nav button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.hero {
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  font-weight: bold;
+}
+
+.card {
+  background: #020617;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.skills span {
+  display: inline-block;
+  background: #1e293b;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+footer {
+  padding: 15px;
+  opacity: 0.6;
+}
+
+body.light {
+  background: #f8fafc;
+  color: #020617;
+}
+
+body.light .card,
+body.light nav {
+  background: white;
+  color: black;
+}
